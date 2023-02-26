@@ -1,0 +1,13 @@
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+
+main {
+    background: #659999;
+    background: -webkit-linear-gradient(to left, #f4791f, #659999);
+    background: linear-gradient(to left, #f4791f, #659999);
+    font-family: 'Space Grotesk', sans-serif;
+
+    h1{
+        color: white;
+    }
+}
