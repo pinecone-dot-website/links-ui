@@ -1,0 +1,103 @@
+form {
+    background-color: lightblue;
+}
+
+.admin {
+    display: flex;
+    flex: 1;
+
+    .panel {
+        background-color: lightgreen;
+        width: 360px;
+    }
+
+    .preview {
+        margin: auto;
+        padding: 1rem;
+    }
+
+    .device {
+        border: 12px solid black;
+        border-radius: 20px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        transition: height .2s ease-in-out, width .2s ease-in-out;
+        position: relative;
+
+        .status {
+            background-color: lightgray;
+            display: flex;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            
+            .system {
+                display: block;
+                flex-grow: 1;
+                margin-left: 1rem;
+            }
+
+            .info {
+                display: inline-block;
+            }
+
+            .notch {}
+        }
+    }
+
+    .mobile {
+        border-radius: 40px;
+        height: 693px;
+        width: 320px;
+
+        .status {
+            font-size: .8rem;
+            padding: 0 .6rem;
+
+            .system {
+                display: none;
+            }
+
+            .info {
+
+                margin: .33rem;
+                text-align: center;
+                width: 25%;
+            }
+
+            .notch {
+                display: inline-block;
+                background-color: black;
+                border-radius: 0 0rem 1rem 1rem;
+
+                width: 50%;
+                height: 24px;
+            }
+        }
+    }
+
+    .tablet {
+        height: 600px;
+        width: 800px;
+
+        .status {
+            .info {
+                flex-shrink: 1;
+                justify-self: right;
+                padding-right: 1rem;
+            }
+
+            .notch {
+                display: none;
+            }
+        }
+    }
+
+    fieldset {
+        margin-bottom: 1rem;
+
+        label {
+            display: block;
+        }
+    }
+}
