@@ -1,0 +1,38 @@
+.bio {
+    // background-color: lightcoral;
+    padding: 1rem;
+
+    .avatar {
+        border-color: #BBB;
+        border-radius: 50%;
+        border-style: solid;
+        display: block;
+        height: 250px;
+        margin: 0 auto 2rem auto;
+        overflow: hidden;
+        padding: 0;
+        width: 250px;
+        // position: relative;
+
+        img {
+            // border-radius: 50%;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    p,
+    textarea {
+        display: inline-block;
+        width: 100%
+    }
+
+    textarea {
+        background-color: white;
+    }
+}
