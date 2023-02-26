@@ -5,6 +5,7 @@
   "repository": "git@github.com:pinecone-dot-website/links-ui.git",
   "author": "Eric Eaglstun <postpostmodern@gmail.com>",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
