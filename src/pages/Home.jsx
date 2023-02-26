@@ -5,13 +5,15 @@ import Profile from '../components/Profile';
 import './Home.scss';
 
 const Home = ({ address, links, styles }) => {
-  return <div className="home">
-    <main>
-      <Profile styles={styles} />
-      <Links links={links} />
-      <SEO address={address} />
-    </main>
-  </div>
+  return (
+    <div className="home">
+      <main>
+        <Profile styles={styles} />
+        <Links links={links} />
+        <SEO address={address} />
+      </main>
+    </div>
+  );
 };
 
 export default Home;

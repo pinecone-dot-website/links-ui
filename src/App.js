@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from 'react-router-dom';
 
 import router from './routes';
 
